@@ -25,23 +25,26 @@
     <li><button class="btn">5</button></li>
   </ul>
 
-  <button class="btn-submit">Submit</button>
+  <button class="btn-submit" id="submit">Submit</button>
 </div>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
 
-  <div class="thank-you">
+  <div class="thank-you hidden">
     <img src="./images/illustration-thank-you.svg" alt="">
-    <p>You selected <!-- Add rating here --> out of 5</p>
+    <p class="gray">You selected 
+      <span id="rating">5</span>
+      out of 5
+    </p>
 
   <h2>Thank you!</h2>
 
   <p>We appreciate you taking the time to give a rating. If you ever need more support, 
     don’t hesitate to get in touch!</p>
 
-    <button class="btn-submit">Rate again</button>
+    <button class="btn-submit" id="rate-again">Rate again</button>
   </div>
 
   <!-- Thank you state end -->
@@ -49,7 +52,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Miriam López</a>.
+    Coded by <a href="https://github.com/Jazzmyr" target="_blank">Miriam López</a>.
   </div>
 
   <script src="./index.js"></script>
